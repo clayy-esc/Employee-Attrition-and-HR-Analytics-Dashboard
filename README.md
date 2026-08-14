@@ -1,6 +1,6 @@
 <div align=center>
   
-<img src="preview/logo.png" width="800" height="250">
+<img src="preview/logo.png" width="500" height="300">
 
 A Power BI dashboard analyzing employee attrition, burnout, and workplace perceptions of AI, built using Power BI Desktop and Google BigQuery.
 
