@@ -1,6 +1,10 @@
+<div align=center>
+  
 # Employee Attrition & HR Analytics Dashboard
 
-A Power BI dashboard analyzing employee attrition, burnout, and workplace perceptions of AI, built using Power BI Desktop and Google BigQuery.
+A PBI dashboard analyzing employee attrition, burnout, and workplace perceptions of AI, built using Power BI Desktop and Google BigQuery.
+
+</div>
 
 ---
 
@@ -20,7 +24,7 @@ The dashboard is organized into five pages:
 
 ## Objective & Key Insights
 
-The goal of this dashboard is to identify the strongest drivers of employee attrition and present them clearly enough for a non technical stakeholder to act on them.
+The goal of this dashboard is to identify the strongest drivers of employee attrition and present them clearly enough for a non-technical stakeholder to act on them.
 
 - Overall attrition sits at 18%, and it is highest among employees in their second to fifth year at the company (21%), higher than both newer hires (19%) and long tenured staff (15%).
 - Customer Support has the highest attrition rate of any department at 24%, while Engineering and Research & Development are the lowest at 15%.
@@ -45,7 +49,7 @@ The dashboard is powered by 16 DAX measures, grouped by the page they support.
 | Workforce Segmentation | Reuses Executive Overview measures, sliced by segment |
 | Sentiment & Wellbeing | `Avg Work Life Balance Score`, `Avg Manager Support Score`, `Avg Overtime Hours` |
 | Compensation & Career Growth | `Avg Monthly Income`, `Avg Salary Hike Pct`, `Avg Stock Option Level`, `Avg Years Since Promotion`, `Avg Performance Rating` |
-| AI Adoption & Perceived Risk | `AI Tool Users`, `AI Tool Adoption Rate`, and `Avg Perceived AI Risk` |
+| AI Adoption & Perceived Risk | `AI Tool Users`, `AI Tool Adoption Rate` |
 
 ---
 
@@ -131,4 +135,3 @@ The table below documents every column used in the dashboard.
 ## Acknowledgments
 
 - Dataset: [uditjain13](https://www.kaggle.com/uditjain13) on Kaggle, *Employee Attrition & HR Analytics 2026*
-- **Author:** *(add your name here)*
