@@ -145,6 +145,7 @@ The table below documents every column used in the dashboard.
 │   └── sentiment_wellbeing.png
 │   └── compensation_career_growth.png
 │   └── ai_adoption_perceived_risk.png
+│   └── logo.png
 ├── README.md
 └── LICENSE
 ```
