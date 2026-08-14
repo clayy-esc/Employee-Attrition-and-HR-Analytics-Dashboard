@@ -1,8 +1,8 @@
 <div align=center>
   
-# Employee Attrition & HR Analytics Dashboard
+<img src="preview/logo.png" width="800" height="250">
 
-A PBI dashboard analyzing employee attrition, burnout, and workplace perceptions of AI, built using Power BI Desktop and Google BigQuery.
+A Power BI dashboard analyzing employee attrition, burnout, and workplace perceptions of AI, built using Power BI Desktop and Google BigQuery.
 
 </div>
 
