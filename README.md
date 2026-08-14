@@ -99,6 +99,10 @@ The table below documents every column used in the dashboard.
 
 ## Dashboard Preview
 
+<div align=center>
+  <img src="preview/executive_overview.png" width="800">
+</div>
+
 | Page | Preview | Key Finding |
 |---|---|---|
 | Executive Overview | `screenshots/01-executive-overview.png` | 5,000 employees tracked overall, with an 18% attrition rate and Engineering making up the largest share of the workforce at 26.7% |
@@ -112,14 +116,19 @@ The table below documents every column used in the dashboard.
 ## Project Structure
 
 ```
-/ (repo root)
+/ 
+├── employee-attrition-and-hr-analytics-2026.pbix
+├── create_vw_dashboard_employees.sql
+├── dataset/
+│   └── employee_attrition_hr_2026.csv
+├── preview/
+│   └── landing-page.png
+│   └── executive_overview.png
+│   └── workforce-segmentation.png
+│   └── sentiment_wellbeing.png
+│   └── compensation_career_growth.png
+│   └── ai_adoption_perceived_risk.png
 ├── README.md
-├── dashboard/
-│   └── dashboard.pbix
-├── sql/
-│   └── vw_dashboard_employees.sql
-├── screenshots/
-├── .gitignore
 └── LICENSE
 ```
 
@@ -127,8 +136,8 @@ The table below documents every column used in the dashboard.
 
 ## Setup & Reproduction
 
-1. Create a BigQuery project, load the source CSV into a `raw_employees` table, then run `vw_dashboard_employees.sql` to create the curated view.
-2. Open `dashboard/dashboard.pbix` in Power BI Desktop and reconnect the BigQuery data source under Transform Data, Data source settings, using your own project ID.
+1. Create a BigQuery project, load the source CSV into a `raw_employees` table, then run `create_vw_dashboard_employees.sql` to create the curated view.
+2. Open `employee-attrition-and-hr-analytics-2026.pbix` in Power BI Desktop and reconnect the BigQuery data source under Transform Data, Data source settings, using your own project ID.
 
 ---
 
