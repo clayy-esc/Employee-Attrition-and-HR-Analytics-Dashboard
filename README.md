@@ -99,17 +99,35 @@ The table below documents every column used in the dashboard.
 
 ## Dashboard Preview
 
-<div align=center>
-  <img src="preview/executive_overview.png" width="800">
+<div align="center">
+  <img src="preview/executive_overview.png" width="800"><br>
+  <strong>Figure 1: Executive Overview</strong><br>
+  <strong>Key Findings:</strong> 5,000 employees tracked overall, with an 18% attrition rate and Engineering making up the largest share of the workforce at 26.7%
 </div>
-
-| Page | Preview | Key Finding |
-|---|---|---|
-| Executive Overview | `screenshots/01-executive-overview.png` | 5,000 employees tracked overall, with an 18% attrition rate and Engineering making up the largest share of the workforce at 26.7% |
-| Workforce Segmentation | `screenshots/02-workforce-segmentation.png` | Customer Support has the highest attrition rate at 24%, and onsite employees leave more often than hybrid or remote employees |
-| Sentiment & Wellbeing | `screenshots/03-sentiment-wellbeing.png` | Overtime hours track closely with burnout, and employees who left report lower manager support and work life balance than those who stayed |
-| Compensation & Career Growth | `screenshots/04-compensation-career-growth.png` | Income and stock options grow steadily with tenure, while employees who left had smaller raises and longer gaps since their last promotion |
-| AI Adoption & Perceived Risk | `screenshots/05-ai-adoption-risk.png` | Perceived AI risk declines with seniority, and employees who use AI tools at work report feeling less threatened by it than those who do not |
+<br>
+<div align="center">
+  <img src="preview/workforce_segmentation.png" width="800"><br>
+  <strong>Figure 2: Workforce Segmentation</strong><br>
+  <strong>Key Findings:</strong> Customer Support has the highest attrition rate at 24%, and onsite employees leave more often than hybrid or remote employees
+</div>
+<br>
+<div align="center">
+  <img src="preview/sentiment_wellbeing.png" width="800"><br>
+  <strong>Figure 3: Sentiment & Wellbeing</strong><br>
+  <strong>Key Findings:</strong> Overtime hours track closely with burnout, and employees who left report lower manager support and work life balance than those who stayed
+</div>
+<br>
+<div align="center">
+  <img src="preview/compensation_career_growth.png" width="800"><br>
+  <strong>Figure 4: Compensation & Career Growth</strong><br>
+  <strong>Key Findings:</strong> Income and stock options grow steadily with tenure, while employees who left had smaller raises and longer gaps since their last promotion
+</div>
+<br>
+<div align="center">
+  <img src="preview/ai_adoption_perceived_risk.png" width="800"><br>
+  <strong>Figure 5: AI Adoption & Perceived Risk</strong><br>
+  <strong>Key Findings:</strong> Perceived AI risk declines with seniority, and employees who use AI tools at work report feeling less threatened by it than those who do not
+</div>
 
 ---
 
@@ -122,7 +140,6 @@ The table below documents every column used in the dashboard.
 ├── dataset/
 │   └── employee_attrition_hr_2026.csv
 ├── preview/
-│   └── landing-page.png
 │   └── executive_overview.png
 │   └── workforce-segmentation.png
 │   └── sentiment_wellbeing.png
